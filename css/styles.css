@@ -103,7 +103,21 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+header.arriba{
+  background-color:#975d06;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1100;
+  padding-left: 25px;
+}
+h1.arribat{
+  color: rgb(43, 46, 46);
+}
+div.separador{
+  margin-top: 50px;
+}
 hr {
   margin: 1rem 0;
   color: inherit;
